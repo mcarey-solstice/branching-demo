@@ -20,4 +20,8 @@ app.get('/version', function(req, res, next) {
   return res.send({"version": version})
 });
 
+app.get('/port', function(req, res, next) {
+  return res.send({"port": port})
+})
+
 app.listen(port)
