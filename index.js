@@ -1,6 +1,5 @@
 /**
- *
- *
+ * @author mcarey-solstice
  */
 
 'use strict';
